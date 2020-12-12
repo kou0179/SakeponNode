@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SakeponNode.Node
+namespace SakeponNode
 {
-    public class Node<T> : INode<T>
+    public class Node
     {
-        public static Node<T> CreateRootNode(T value, string id = null)
+        public static Node<T> CreateRootNode<T>(T value, string id = null)
         {
             return new Node<T>()
             {
@@ -18,7 +18,10 @@ namespace SakeponNode.Node
                 IdMap = new IdMap<T>()
             };
         }
+    }
 
+    public class Node<T> : INode<T>
+    {
         public INode<T> Parent { get; internal set; }
 
         private List<INode<T>> _children = new List<INode<T>>();

@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SakeponNode.Node
+namespace SakeponNode
 {
     public class IdMap<T> : ConcurrentDictionary<string, INode<T>>
     {

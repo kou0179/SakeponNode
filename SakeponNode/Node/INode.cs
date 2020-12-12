@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace SakeponNode.Node
+namespace SakeponNode
 {
+
     /// <summary>
     /// ツリーにおけるノード
     /// </summary>
