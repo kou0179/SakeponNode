@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Kota Sakahara (Sakepon)</Authors>
+    <Company>Kota Sakahara (Sakepon)</Company>
+    <PackageProjectUrl>https://github.com/kou0179/SakeponNode</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/kou0179/SakeponNode</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>A simple tree structure library</Description>
+    <Copyright>(C) 2020 Kota Sakahara (Sakepon)</Copyright>
   </PropertyGroup>
 
 </Project>
